@@ -1,0 +1,3 @@
+const fs = require('fs');
+const html = '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>毕业晚会节目评选</title></head><body><main><h1>毕业晚会节目评选</h1><p>本地服务已就绪，可通过 /records 管理节目。</p></main></body></html>\n';
+fs.writeFileSync('index.html', html);
